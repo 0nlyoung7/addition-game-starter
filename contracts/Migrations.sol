@@ -1,5 +1,6 @@
-pragma solidity ^0.4.24;
+pragma solidity >=0.4.21 <0.7.0;
 
+// 스마트계약을 배포할때 실행하도록 되어 있다
 contract Migrations {
     address public owner;
     uint public last_completed_migration;
