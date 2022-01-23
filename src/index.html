@@ -30,10 +30,33 @@
             로그아웃
           </button>
         </h3>
+        <div class="text-center" id="address"></div>
+        <div class="text-center" id="contractBalance"></div>
         <hr />
       </div>
     </div>
   </div>
+
+  <br/>
+
+  <div id="spin"></div>
+
+  <div class="row text-center">
+    <div class="col-md-2 col-md-offset-5">
+        <div id="owner" style="display:none">
+          <hr/>
+          <label>컨트랙에 KLAY 보내기</label>
+          <div class="input-group">
+            <input type="number" class="form-control" id="amount"/>
+            <span class="input-group-btn">
+              <button type="button" class="btn btn-default" onclick="App.deposit()">송금</button>
+            </span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
   <!-- Modal -->
   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm" role="document">

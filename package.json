@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "caver-js": "^1.5.0",
+    "connect-privkey-to-provider": "0.0.3",
     "spin.js": "4.0.0"
   },
   "devDependencies": {
